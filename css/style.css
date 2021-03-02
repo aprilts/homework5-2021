@@ -96,6 +96,7 @@ nav a:hover {
 /*Req 5*/
 .container{
   /*Your Code Here*/
+  display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-rows: auto;
   grid-row-gap: 20px;
@@ -169,8 +170,7 @@ header{
   padding: 30px;
   /*Your code here:*/
 
-  justify-items: center;
-  align-items: center;
+  align-self: center;
 
 }
 
